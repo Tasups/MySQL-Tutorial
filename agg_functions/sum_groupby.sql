@@ -1,0 +1,1 @@
+SELECT author_fname, author_lname, SUM(pages) FROM books GROUP BY author_fname, author_lname ORDER BY pages;
